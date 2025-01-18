@@ -1,0 +1,64 @@
+
+        body {
+            font-family: sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+           background-image: url(a1.jpg);
+        }
+
+        .login-container {
+            background-color: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+            width: 300px; /* Set a fixed width */ }
+
+        .form-group {
+            margin-bottom: 15px;
+        }
+
+        label {
+            display: block;
+            font-weight: bold;
+            margin-bottom: 5px;
+            color: #333; /* Darker label color */
+        }
+
+        input[type="text"],
+        input[type="password"] {
+            width: calc(100% - 12px); /* Account for padding */
+            padding: 8px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            box-sizing: border-box; /* Include padding in width */
+        }
+
+        input[type="password"] {
+            -webkit-text-security: disc; /* Hide password characters in Safari */
+           
+        }
+
+        button {
+            background-color: #007bff; /* Blue button */
+            color: white;
+            padding: 10px 15px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            width: 100%; /* Make button full width */
+          
+        }
+
+        button:hover {
+            background-color: #0056b3; /* Darker blue on hover */
+            
+        }
+
+        .error-message {
+            color: red;
+            margin-top: 5px;
+        }
+        
+  
